@@ -1,4 +1,4 @@
-# 🌌 Welcome to CodeGalax
+# 🌌 Welcome to CodeGalaxy
 
 ## 🌟 What's Here for You to Do?
 - 🚀 **Contribute in Any Language**: Pick your favorite programming language and start contributing.
