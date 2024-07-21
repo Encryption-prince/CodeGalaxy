@@ -1,9 +1,9 @@
-def bubble_sort(arr):
-    n = len(arr)
+def bubble_sort(list_values):
+    n = len(list_values)
     for i in range(n):
         for j in range(0, n - i - 1):
-            if arr[j] > arr[j + 1]:
-                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+            if list_values[j] > list_values[j + 1]:
+                list_values[j], list_values[j + 1] = list_values[j + 1], list_values[j]
 
 list_values = []
 n = int(input("Enter the length of the list: "))
