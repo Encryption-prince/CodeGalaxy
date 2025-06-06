@@ -1,7 +1,6 @@
 # 🌌 Welcome to CodeGalaxy
 
 ## 🌟 What's Here for You to Do?
-Remember who u are..
 
 - 🚀 **Contribute in Any Language**: Pick your favorite programming language and start contributing.
 - 🔧 **Optimize Existing Codes**: Improve and refine the current codebase.
