@@ -26,7 +26,8 @@ jobs:
             avatar_url=$(echo "$contributor" | jq -r '.avatar_url')
             contributions=$(echo "$contributor" | jq -r '.contributions')
 
-            echo "| ![]($avatar_url?s=50) | [$login](https://github.com/$login) | $contributions |" >> contributors.md
+            echo "| <img src=\"$avatar_url\" width=\"40\" height=\"40\" style=\"border-radius:50%;\" /> | [$login](https://github.com/$login) | $contributions |" >> contributors.md
+
           done
 
           # Replace content between the markers in README.md
