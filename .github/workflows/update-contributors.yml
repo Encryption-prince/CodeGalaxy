@@ -1,7 +1,10 @@
 name: Update Contributors List
 
 on:
-  workflow_dispatch: # You can trigger this manually from the Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-contributors:
