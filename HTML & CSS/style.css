@@ -1,0 +1,38 @@
+h3{
+    color:aquamarine;
+}
+
+p{
+    color:green;
+}
+
+li{
+    list-style-type: none;
+}
+
+.special{
+    color:orange;
+    font-weight:bold;
+}
+
+h6+p{
+    font-size: 20px;
+}
+
+a:hover{
+    color:saddlebrown;
+    text-decoration: none;
+}
+table,tr,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    border-spacing: 5px;
+
+}
+th{
+    background-color: coral;
+}
+td{
+    background-color: blue;
+}
