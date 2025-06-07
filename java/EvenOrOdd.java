@@ -9,6 +9,6 @@ class EvenOrOdd {
             System.out.println("Even");
         else
             System.out.println("Odd");
-        sc.close();
+        sc.close(); // scanner close
     }
 }
